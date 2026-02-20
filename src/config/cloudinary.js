@@ -15,6 +15,8 @@ const eze = cloudinary.image("yo")
 export const ezequiel = eze.resize(fill().width(800).height(800))
 const ubk = cloudinary.image("homeubk")
 export const ulbakuya = ubk.resize(fill().width(800).height(600))
+const portfolio = cloudinary.image("portfolioviejo")
+export const portfoliov = portfolio.resize(fill().width(800).height(600))
 
 
 const image1 = cloudinary.image("portfolio/html2")
