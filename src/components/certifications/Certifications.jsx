@@ -22,12 +22,12 @@ function Certifications({ certRef }) {
 
       <div className="bg-white/5 border border-white/10 rounded-xl p-6 md:p-10 hover:border-violet-500/40 transition">
 
-        {/* title */}
+
         <h1 className="text-2xl md:text-3xl font-bold mb-8 bg-linear-to-r from-violet-400 to-purple-600 bg-clip-text text-transparent">
           Certificaciones
         </h1>
 
-        {/* slider */}
+
         <div className="flex justify-center mb-8">
 
           <Swiper
@@ -64,7 +64,6 @@ function Certifications({ certRef }) {
 
         </div>
 
-        {/* list modern */}
         <div className="space-y-4 text-sm md:text-base leading-relaxed max-w-3xl">
 
           <div>

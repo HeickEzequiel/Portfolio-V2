@@ -25,15 +25,15 @@ function TechStack() {
   return (
     <section className="max-w-5xl mx-auto px-4 md:px-12 py-12">
 
-      {/* subtle label */}
+
       <p className="text-xs uppercase tracking-widest opacity-50 mb-6">
         Tecnologías principales
       </p>
 
-      {/* ticker wrapper */}
+
       <div className="relative overflow-hidden">
 
-        {/* fade edges */}
+
         
         <div className="pointer-events-none absolute left-0 top-0 h-full w-16 bg-linear-to-r from-black to-transparent z-10" />
         <div className="pointer-events-none absolute right-0 top-0 h-full w-16 bg-linear-to-l from-black to-transparent z-10" />

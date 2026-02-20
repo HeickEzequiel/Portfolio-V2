@@ -4,14 +4,14 @@ function Experience({ expRef }) {
       ref={expRef}
       className="max-w-5xl mx-auto px-4 md:px-12 py-16">
 
-      {/* title */}
+
       <h1 className="text-2xl md:text-3xl font-bold mb-10 bg-linear-to-r from-violet-400 to-purple-600 bg-clip-text text-transparent">
         Experiencia
       </h1>
 
       <div className="space-y-6">
 
-        {/* card */}
+
         <div className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-violet-500/40 transition">
           <h2 className="font-medium text-lg md:text-xl">
             Desarrollador Web Freelance
@@ -32,7 +32,6 @@ function Experience({ expRef }) {
           </ul>
         </div>
 
-        {/* card */}
         <div className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-violet-500/40 transition">
           <h2 className="font-medium text-lg md:text-xl">
             Instructor de Taekwondo
@@ -50,7 +49,6 @@ function Experience({ expRef }) {
           </ul>
         </div>
 
-        {/* card */}
         <div className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-violet-500/40 transition">
           <h2 className="font-medium text-lg md:text-xl">
             Soporte IT — YPF / Aegis

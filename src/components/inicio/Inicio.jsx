@@ -10,16 +10,15 @@ function Inicio({ iniRef }) {
 
       <div className="bg-white/5 border border-white/10 rounded-xl p-6 md:p-10 hover:border-violet-500/40 transition">
 
-        {/* layout */}
+
         <div className="flex flex-col md:flex-row md:items-center gap-8">
 
-          {/* image */}
+
           <AdvancedImage
             cldImg={ezequiel}
             className="w-40 h-40 md:w-52 md:h-52 rounded-2xl object-cover"
           />
 
-          {/* text */}
           <div className="space-y-4">
 
             <h1 className="text-2xl md:text-3xl font-bold">
@@ -41,7 +40,6 @@ function Inicio({ iniRef }) {
           </div>
         </div>
 
-        {/* description blocks */}
         <div className="mt-8 space-y-4 text-sm md:text-base leading-relaxed max-w-3xl">
 
           <p>
